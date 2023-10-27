@@ -1,0 +1,52 @@
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+ul{
+    margin-block: 50px;
+    font-size: 1.5rem;
+}
+
+input, button {
+    font-size: 1.25rem;
+}
+
+.controls{
+  display:flex;
+    flex-direction:column;
+
+} 
+    
+
+input, button {
+    padding: 8px 16px;
+}
+
+
+html {
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.app {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    padding : 30px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
